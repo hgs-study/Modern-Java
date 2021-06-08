@@ -1,6 +1,6 @@
 package com.company.behaviorParameterization.behaviorParameterization;
 
-public class Apple {
+public class Apple implements Comparable<Apple> {
 
     private Color color;
     private int weight;
@@ -23,5 +23,7 @@ public class Apple {
         color = appleColor;
         weight = appleWeight;
     }
+
+
 
 }

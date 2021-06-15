@@ -1,4 +1,4 @@
-package com.company.Lambda;
+package com.company.lambda;
 
 @FunctionalInterface
 public interface Consumer<T> {

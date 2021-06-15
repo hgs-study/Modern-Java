@@ -1,10 +1,6 @@
-package com.company.Lambda;
-
-import com.company.behaviorParameterization.behaviorParameterization.Apple;
+package com.company.lambda;
 
 import java.util.Comparator;
-import java.util.List;
-import java.util.function.Predicate;
 
 
 public class Lambda {
@@ -36,8 +32,8 @@ public class Lambda {
 //        (Person p1, Person p2) -> p1.getHeight().compareTo(p2.getHeight())
 
 
-        List<Person> tallerThan180cm =
-        filter(people,(Person person) -> person.getHeight() > 180 );
+//        List<Person> tallerThan180cm =
+//        filter(people,(Person person) -> person.getHeight() > 180 );
 
     }
 
